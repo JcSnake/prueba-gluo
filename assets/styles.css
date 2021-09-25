@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Muli';
+}
+
+@font-face {
+    font-family: 'Muli-bold';
+    src: url(../assets/fonts/webfonts_Muli-Bold/Muli-Bold.ttf.woff) format('woff');
+}
+
+
+@font-face {
+    font-family: 'Muli';
+    src: url(../assets/fonts/webfonts_Muli-Bold/Muli-Regular.ttf.woff) format('woff');
+}
+
+
+body {
+    background-image: radial-gradient(circle at 50% 0, #a80e0e, #390000 82%);
+    height: auto;
+    width: auto;
+}
+
+h3 {
+    color: #fff;
+}
+
+.font-muli-regular {
+    font-family: 'Muli' !important;
+    font-weight: normal;
+}
+
+.style-cross {
+    font-family: 'Muli-bold';
+    color: #fff;
+}
+
+.container-comic {
+    width: 1090px;
+    height: 82px;
+    margin: 40px 0 20px 0.5px;
+    padding: 0 0 0 24px;
+    border-radius: 4px;
+    box-shadow: 0 7px 14px 0 rgba(34, 0, 0, 0.53);
+    background-color: #fff;
+    transition: width 0.8s;
+}
+
+.box-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.spacing {
+    height: 100%;
+    width: 92%;
+    padding-left: 24px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.box-delete {
+    width: 8%;
+    padding: 29px;
+    background-color: #980c0c;
+    transition: transform 0.8s;
+}
+
+.box-delete:hover {
+}
+
+.container-comic:hover {
+    width: 1000px;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+/** fonts
+ * 
+ */
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-title {
+    font-size: 27px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+/**
+ * Padding
+ */
+
+.pl-space {
+    padding-left: 24px;
+}
+
+.padding-main-section {
+    padding: 40px 175px 114px 174.5px;
+}
+
+/**
+ * Margins
+ */
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/**
+ * Text-align
+ */
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex-aic {
+    display: flex;
+    align-items: center;
+}
+
+.pos-delete {
+    position: relative;
+    top: -53px;
+    left: 1017px;
+    z-index: -1;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.delete {
+    color: #fff;
+    text-decoration: none;
+}
