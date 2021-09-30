@@ -31,6 +31,11 @@ h3 {
     font-weight: normal;
 }
 
+.font-muli-bold {
+    font-family: 'Muli-bold' !important;
+    font-weight: 900;
+}
+
 .style-cross {
     font-family: 'Muli-bold';
     color: #fff;
@@ -73,13 +78,13 @@ h3 {
     background-color: #980c0c;
     transition: transform 0.8s;
 }
-
+/* 
 .box-delete:hover {
 }
 
 .container-comic:hover {
     width: 1000px;
-}
+} */
 
 .w-80 {
     width: 80%;
